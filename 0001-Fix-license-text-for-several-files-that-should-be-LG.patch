@@ -1,0 +1,79 @@
+From 079a30ec6cf52b1ad8b1240298608829968c4f8e Mon Sep 17 00:00:00 2001
+From: Stephen Gallagher <sgallagh@redhat.com>
+Date: Fri, 19 Nov 2010 07:54:06 -0500
+Subject: [PATCH] Fix license text for several files that should be LGPLv3+
+
+This is NOT a relicensing. These files were mislabeled. They were
+always LGPLv3+.
+---
+ refarray/ref_array.c |    4 ++--
+ refarray/ref_array.h |    4 ++--
+ trace/trace.h        |    4 ++--
+ 3 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/refarray/ref_array.c b/refarray/ref_array.c
+index d02f9aed8f7e9f638d65a956371368bce0baf377..c24d5c4b2796dd17de3ea371d1654ac5276a74c9 100644
+--- a/refarray/ref_array.c
++++ b/refarray/ref_array.c
+@@ -6,14 +6,14 @@
+     Copyright (C) Dmitri Pal <dpal@redhat.com> 2009
+ 
+     This program is free software; you can redistribute it and/or modify
+-    it under the terms of the GNU General Public License as published by
++    it under the terms of the GNU Lesser General Public License as published by
+     the Free Software Foundation; either version 3 of the License, or
+     (at your option) any later version.
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+-    You should have received a copy of the GNU General Public License
++    You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+diff --git a/refarray/ref_array.h b/refarray/ref_array.h
+index 4b4b2de6b974decd2125fd8a3642d68e92b43d67..0040fe43f4e70eda9a1860129fc45d3e892a20d1 100644
+--- a/refarray/ref_array.h
++++ b/refarray/ref_array.h
+@@ -6,14 +6,14 @@
+     Copyright (C) Dmitri Pal <dpal@redhat.com> 2009
+ 
+     This program is free software; you can redistribute it and/or modify
+-    it under the terms of the GNU General Public License as published by
++    it under the terms of the GNU Lesser General Public License as published by
+     the Free Software Foundation; either version 3 of the License, or
+     (at your option) any later version.
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+-    You should have received a copy of the GNU General Public License
++    You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+diff --git a/trace/trace.h b/trace/trace.h
+index 04aa5c8b8b304f0cd05a94f9beef0ff4e52d75bc..3f09fc1d2e03359472b8639d55d7cc5c2588622c 100644
+--- a/trace/trace.h
++++ b/trace/trace.h
+@@ -6,14 +6,14 @@
+     Copyright (C) Dmitri Pal <dpal@redhat.com> 2009
+ 
+     This program is free software; you can redistribute it and/or modify
+-    it under the terms of the GNU General Public License as published by
++    it under the terms of the GNU Lesser General Public License as published by
+     the Free Software Foundation; either version 3 of the License, or
+     (at your option) any later version.
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+-    You should have received a copy of the GNU General Public License
++    You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+-- 
+1.7.3.4
+
